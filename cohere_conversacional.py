@@ -179,7 +179,7 @@ def main(model: str = "command-a-03-2025"):  # modelo vigente
         "content": "Eres un asistente útil que responde en español, claro y directo."
     }
     # 5.3 Historial: arranca con el system
-    messages: List[Dict[str, str]] = [system_msg]
+    messages: List[Dict[str, str]] = [system_msg] 
 
     # 5.4 Bucle de conversación
     while True:
